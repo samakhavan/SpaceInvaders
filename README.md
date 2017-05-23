@@ -2,9 +2,7 @@
 
 ## Core Concepts
 
-1. 
-
-Appropriately modeling state using 2-D arrays*
+1. Appropriately modeling state using 2-D arrays
 
 This design concept was not originally delineated in my proposal, but I realized that it would be a much better way
 to represent the core block of enemies (as they very clearly visually represent a 2-D array). In addition, it made
@@ -13,9 +11,7 @@ create each of the 55 Aliens in the game, then add them all to the Collection on
 of space. Now, I simply use a double for loop to populate the 2-D array, using the for loop indices to increment the
 starting positions of each enemy.
 
-2.
-
- Appropriately modeling state using collections
+2. Appropriately modeling state using collections
 
 I originally intended to model all of the enemies with Collections, but as stated above, I decided against that. However,
 I ended up using an ArrayList to model the special enemies (the red flying saucers). There are very few of these, so
@@ -23,9 +19,7 @@ instantiating the individual special enemies was not a problem. In addition, sin
 the flexibility to remove/update elements of a Collection in place was very helpful. I also used a TreeMap to help store
 the high scores and associate them with the user inputted name.
 
-3.
-
- Using I/O to parse a novel file format
+3. Using I/O to parse a novel file format
 
 I created a Highscores class and a writeHighScores() method in the GameOver class that worked together to create a file
 called "SIX_highscores.txt" and update it appropriately when the user finished a game and wanted to save their high score.
