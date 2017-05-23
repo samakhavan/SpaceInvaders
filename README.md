@@ -1,8 +1,6 @@
 # SpaceInvaders
 
-===================
-=: Core Concepts :=
-===================
+## Core Concepts
 
 1. 
 
@@ -44,9 +42,7 @@ updating the animation speed (getAnimationSpeed() and setAnimationSpeed()), chec
 and an abstract attack() method that was different for each ship in the game. Since the ships are all relatively similar
 (save the attack() method), subtyping was the perfect answer.
 
-====================
-=: Implementation :=
-====================
+## Implementation
 
 Game: This is the main game class that implements Runnable. It creates the various screens that appear in the game and adds
       them all to an appropriate JFrame with a CardLayout.
@@ -95,9 +91,7 @@ definitely refactor the code in the tick() method of the GameRoom class--there a
 given enough time to rethink the implementation and refactor the code. There were no severe stumbling blocks--creating the
 appropriate File I/O for saving high scores across runs was a bit tough, but nothing that was too perplexing.
 
-========================
-=: External Resources :=
-========================
+## External Resources
 
 Background image: https://spencer2124.files.wordpress.com/2014/06/background.png
 Alien sprites: http://fontvir.us/ui/img/fonts/invaders.gif*
