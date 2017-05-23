@@ -88,8 +88,11 @@ appropriate File I/O for saving high scores across runs was a bit tough, but not
 ## External Resources
 
 Background image: https://spencer2124.files.wordpress.com/2014/06/background.png
+
 Alien sprites: http://fontvir.us/ui/img/fonts/invaders.gif*
+
 Player ship sprite: https://img.itch.io/aW1hZ2UvNTk0MjAvMjY3MzY5LnBuZw==/original/BAOyZX.png
+
 JavaDocs: https://docs.oracle.com/javase/7/docs/api/
 
 *I used this image as a reference and drew my own sprites using https://make8bitart.com/
